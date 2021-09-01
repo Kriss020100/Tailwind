@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+html {
+  font-family: "DM Sans", sans-serif;
+}
+.font-mulish {
+  font-family: "mulish", sans-serif;
+}
+@tailwind utilities;

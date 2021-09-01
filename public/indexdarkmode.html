@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script>
+        function darkmodeon(){
+        document.querySelector("html").classList.add('dark')
+        }
+        function darkmodeoff(){
+        document.querySelector("html").classList.remove('dark')
+        }
+    </script>
+</head>
+<body>
+    <div class="w-full min-h-screen dark:bg-black dark:text-white">
+        <button class="px-8 py-2 bg-red-400 text-blue hover:px-12"
+        onclick="darkmodeon()">
+        DarkMode
+        </button>
+        <button class="px-8 py-2 bg-red-400 text-blue hover:px-12"
+        onclick="darkmodeoff()">
+        light
+        </button>
+            <span class="text-black">Full name</span>
+            <input type="text" class="mt-3 black w-full" placeholder="ketik disini">
+        </label>
+    </div>
+</body>
+</html>
